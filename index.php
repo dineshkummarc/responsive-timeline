@@ -9,16 +9,14 @@ $result = $statement->fetchAll();
 <html>  
     <head>  
         <title>How to Create Dynamic Timeline in PHP</title>
-        <script src="js/jquery.js"></script>
-        <script src="js/timeline.min.js"></script>
-		<link rel="stylesheet" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" href="css/timeline.min.css" />
+        <script src="Backup/js/jquery.js"></script>
+        <script src="Backup/js/timeline.min.js"></script>
+        <link rel="stylesheet" href="Backup/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="Backup/css/timeline.min.css" />
 		
     </head>  
     <body>  
         <div class="container">
-			<br />
-			<h3 align="center"><a href="">How to Create Dynamic Timeline in PHP</a></a></h3><br />
 			<div class="panel panel-default">
 				<div class="panel-heading">
                     <h3 class="panel-title">Our Journey</h3>
@@ -54,13 +52,13 @@ $(document).ready(function(){
 	/*timeline(document.querySelectorAll('.timeline'), {
         mode: 'horizontal',
 	    visibleItems: 4,
-	    forceVerticalWidth: 800
+	    forceVerticalWidth: 100
     });*/
     //jQuery('.timeline').timeline();
     jQuery('.timeline').timeline({
 	    mode: 'horizontal',
 	    visibleItems: 4,
-	    //forceVerticalWidth: 300
+	    //forceVerticalWidth: 100
 	});
 });
 </script>
